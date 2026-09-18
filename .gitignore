@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.wav
+*.flac
+*.mp3
+results/audio/
+results/*_cache/
+data/
+!manifests/example_manifest.csv
+consent_forms/
+raw_audio/
+*.egg-info/
+dist/
+build/
+.pytest_cache/

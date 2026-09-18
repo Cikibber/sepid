@@ -1,0 +1,10 @@
+torch
+asteroid
+librosa
+scipy
+numpy
+mir_eval
+pandas
+soundfile
+matplotlib
+pyyaml

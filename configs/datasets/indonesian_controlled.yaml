@@ -1,0 +1,9 @@
+# D2 — Indonesian controlled full-reference set (Phase 3+; pilot excluded from test)
+name: indonesian_controlled
+split: test
+sample_rate_hz: 16000
+target_sample_rate_hz: 16000
+mono: true
+num_sources: 2
+data_root: data/indonesian_controlled
+metadata_csv: manifests/indonesian_controlled_test.csv

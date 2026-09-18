@@ -1,0 +1,31 @@
+[project]
+name = "sepid"
+version = "0.1.0"
+description = "SepID — single-channel speech separation for Indonesian group discussions (course final project)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "asteroid",
+    "librosa",
+    "scipy",
+    "numpy",
+    "mir_eval",
+    "pandas",
+    "soundfile",
+    "matplotlib",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

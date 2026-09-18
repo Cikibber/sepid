@@ -1,0 +1,9 @@
+# D1 — MiniLibriMix evaluation partition (Phase 0 freeze required)
+name: minilibrimix
+split: validation
+sample_rate_hz: 16000
+target_sample_rate_hz: 16000
+mono: true
+num_sources: 2
+data_root: data/minilibrimix
+metadata_csv: manifests/minilibrimix_val.csv

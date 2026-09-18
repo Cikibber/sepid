@@ -1,0 +1,6 @@
+# Smoke experiment: toy fixtures end-to-end (Phase 1 exit gate)
+run_id: smoke-toy
+dataset: configs/datasets/minilibrimix.yaml
+methods: [mixture, oracle]
+seed: 0
+pilot_or_final: pilot
