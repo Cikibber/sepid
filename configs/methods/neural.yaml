@@ -1,7 +1,7 @@
-# M2 — frozen neural checkpoint card (exact id + revision frozen in Phase 0)
+# M2 — frozen neural checkpoint (id + revision frozen; see docs/MODEL_CARD.md)
 name: neural
-checkpoint: TBD-phase-0-freeze
-revision: TBD-phase-0-freeze
+checkpoint: JorisCos/ConvTasNet_Libri2Mix_sepclean_16k
+revision: e1ef95ab7a037950f3a606b9a56760cf94701d3d
 sample_rate_hz: 16000
 num_sources: 2
 device: cpu
